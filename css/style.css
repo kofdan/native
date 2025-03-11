@@ -57,8 +57,29 @@ header {
   justify-content: space-between;
 }
 .info-section {
-  min-height: 500px;
+  height: 500px;
   background-image: url('../images/bg-img.jpg');
   background-size: cover;
   background-position: center center;
+  color: #fff;
+}
+
+.title {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 60px;
+  line-height: 100%;
+  max-width: 790px;
+  min-height: 120px;
+  text-align: left;
+  font-weight: 400;
+  padding-left: 200px;
+  padding-top: 254px;
+}
+.info-desc {
+  font-family: 'Cormorant', sans-serif;
+
+  padding-top: 20px;
+
+  min-height: 58px;
+  min-width: 558px;
 }
