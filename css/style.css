@@ -9,13 +9,14 @@ body {
 
 header {
   max-width: 1200px;
-  margin: 30px auto 0 auto;
+  max-height: 140px;
+  margin: 30px auto 30px auto;
 }
 .logo {
   max-width: 73px;
-  max-height: 105px;
   width: 100%;
   height: 100%;
+  padding-bottom: 35px;
 }
 .main-nav {
   display: flex;
@@ -56,30 +57,89 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.btn-wrapper-header {
+  display: flex;
+  min-width: 58px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .info-section {
+  font-family: 'Cormorant', sans-serif;
   height: 500px;
   background-image: url('../images/bg-img.jpg');
   background-size: cover;
   background-position: center center;
+  text-align: left;
   color: #fff;
 }
 
+.info-inner {
+  padding-left: 200px;
+  font-weight: 400;
+  padding-top: 254px;
+}
 .title {
-  font-family: 'Cormorant', sans-serif;
   font-size: 60px;
   line-height: 100%;
   max-width: 790px;
-  min-height: 120px;
-  text-align: left;
   font-weight: 400;
-  padding-left: 200px;
-  padding-top: 254px;
+  min-height: 120px;
 }
 .info-desc {
-  font-family: 'Cormorant', sans-serif;
-
   padding-top: 20px;
-
   min-height: 58px;
-  min-width: 558px;
+  font-size: 24px;
+  max-width: 558px;
+  line-height: auto;
+}
+
+.tea-varieties {
+  max-width: 100%;
+  max-height: 900px;
+  text-align: center;
+  font-family: 'Cormorant', sans-serif;
+  color: #151618;
+}
+
+.tea-main-tittle {
+  font-weight: 300;
+  font-style: italic;
+  max-width: 705px;
+  font-size: 40px;
+  margin: 150px auto 0 auto;
+}
+.tea-tittle {
+  font-size: 40px;
+  font-weight: 400;
+}
+.tea-collection {
+  width: 100%;
+  margin: 150px auto 0 auto;
+  max-width: 1200px;
+  max-height: 355px;
+  height: 100%;
+  max-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.tea-collection-list {
+  margin: 60px 0 0 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+.tea-collection-img {
+  width: 208px;
+  height: 208px;
+}
+.tea-collection-name {
+  font-size: 24px;
+  padding-top: 10px;
 }
